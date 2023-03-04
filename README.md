@@ -1,4 +1,5 @@
-## Generate 50 PolyAliens NFT art and metadata with your StackUp usernames for the Quest 1
+# stackup-nft-art-engine
+🖼️ Generate 50 PolyAliens NFT art and metadata with your StackUp usernames for the Quest 1
 
 ## Steps
 
@@ -30,9 +31,9 @@ node index.js
 
 ### 3. Upload images folder to IPFS using [Pinata](https://www.pinata.cloud/)
 
-- Upload `images` directory to Pinata.
+* Upload `images` directory to Pinata.
 
-- Copy the CID of `images` folder.
+* Copy the CID of `images` folder.
 
 ### 4. Update the IPFS CID in metadata
 
@@ -52,6 +53,7 @@ node utils/updateBaseUri.js
 
 ### 5. Upload json folder to IPFS using [Pinata](https://www.pinata.cloud/)
 
-- Upload `json` directory to Pinata.
+* Upload `json` directory to Pinata.
+
 
 Happy hacking!
